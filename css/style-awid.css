@@ -27,7 +27,14 @@
 }
 .block-logo-advert{
     flex-grow: 1;
+    border-right: 3px #f3f0f0 solid;
+    width: 0;
 }
+
+.block-logo-advert img{
+    width: 80%;
+}
+
 .block-info-advert{
     flex-grow: 5;
 }
