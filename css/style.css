@@ -171,7 +171,7 @@ Sections
 }
 
 .splash .container {
-  padding-top: 25vh; /* No JS fallback*/
+  /*padding-top: 25vh; !* No JS fallback*!*/
   padding-bottom: 25vh; /* No JS fallback*/
 }
 
@@ -316,6 +316,7 @@ Footer
   margin-right: 0;
 }
 
+
 /* ========================
 Media Queries
 ======================== */
@@ -401,5 +402,7 @@ Media Queries
   .contact form textarea {
     height: 12em;
   }
+
+  /*-------------------- awid css --------------------------------------*/
 
 }
