@@ -4,11 +4,12 @@
 $("nav ul").hide();
 
 $(".nav-toggle").click( function() {
-  $("nav ul").slideToggle("medium");
+  $("nav .menu-nav").slideToggle("medium");
 });
 
-$("nav ul li a, .brand a").click( function() {
-  $("nav ul").hide();
+$(".menu-nav-li a, .brand a").click( function() {
+
+  $("nav ul").hide(400);
 });
 
 ////////////////////////////////////
@@ -61,3 +62,10 @@ $( document ).ready( function() {
 $( window ).resize( function() {
   centerSplash();
 });
+
+//---------------------- AWID --------------------------------
+
+$(document).on('click','.test',function (){
+  $('.menu-profile').toggle(400);
+} );
+

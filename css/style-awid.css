@@ -38,3 +38,14 @@
 .block-info-advert{
     flex-grow: 5;
 }
+
+.menu-profile{
+    display: none ;
+    padding-left: 0px;
+}
+.menu-profile li{
+    list-style: none ;
+    width: 100%;
+    display: block;
+
+}
